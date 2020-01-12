@@ -1,0 +1,27 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'PASSO 1'" [icon]="'fa fa-info-circle'" ></app-page-header>
+
+    <div class="form-group">
+        <label for="usr">CPF:</label>
+        <input type="number" class="form-control" id="cpf">
+    </div>
+
+    <div class="form-group">
+        <label for="usr">Nome:</label>
+        <input type="text" class="form-control" id="usr">
+    </div>
+    
+    <div class="form-group">
+        <label for="UF">Estado de origem</label>
+        <select class="browser-default custom-select">
+            <option selected=" Select a value "></option>
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="ba">BA</option>
+            <option value="am">AM</option>
+            <option value="pi">PI</option>
+        </select>
+
+    </div>
+
+</div>
